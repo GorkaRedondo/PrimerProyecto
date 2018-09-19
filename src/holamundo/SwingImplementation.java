@@ -21,6 +21,7 @@ public class SwingImplementation implements View{
     @Override
     public void showGreeting(String greeting){
         JFrame frame = new JFrame();
+        //Comentario
         JOptionPane.showMessageDialog(frame, greeting, "Informacion", JOptionPane.INFORMATION_MESSAGE);
         frame.dispose();
     }
