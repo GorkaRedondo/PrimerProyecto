@@ -11,6 +11,6 @@ package holamundo;
  */
 public class ViewFactory {
     public static View getView(){
-        return new SwingImplementation();
+        return new JavaFxViewImplementation();
     }
 }

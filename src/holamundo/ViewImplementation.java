@@ -5,14 +5,15 @@
  */
 package holamundo;
 
-import java.time.Clock;
-
 /**
  *
  * @author 2dam
  */
 public class ViewImplementation implements  View{
+    
+    @Override
     public void showGreeting(String greeting){
         System.out.println(greeting);
     }
+    
 }
