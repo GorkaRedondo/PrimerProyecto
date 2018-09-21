@@ -5,6 +5,7 @@
  */
 package holamundo;
 
+import java.util.List;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -41,6 +42,19 @@ public class JavaFxViewImplementation extends Application implements View {
         
         JavaFxViewImplementation.greeting = greeting;
         launch();
+    }
+    
+    /*public void init() throws Exception {
+        
+        List<String> lista = getParameters().getRaw();
+        String greeting = lista.get(0);
+        
+        this.greeting = greeting;
+    }*/
+    
+    public void setGreeting(String greeting) {
+        
+        this.greeting = greeting;
         
     }
 }

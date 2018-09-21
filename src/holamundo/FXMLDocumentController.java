@@ -25,9 +25,7 @@ public class FXMLDocumentController {
     }
     
     public void setGreeting(String greeting) {
-        
         this.greeting = greeting;
-        
     }
     
 }
